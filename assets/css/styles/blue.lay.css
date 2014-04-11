@@ -1,0 +1,174 @@
+a{
+ color:#f06461;
+}
+/*********************
+ TopBar
+*********************/
+.front-topbar{
+ background:#25232f;
+ height:67px;
+}
+
+#logo-v1 a{
+ display:block;
+ padding:16px 0px;
+}
+
+.list-topbar{
+ vertical-align:middle;
+}
+
+.list-topbar a{
+ display:block;
+ color:#cfcfd0;
+ padding:8px 10px;
+}
+
+.list-topbar li{
+ border-left:1px solid #3a374a;
+}
+.list-topbar li:first-child{
+ border:none;
+}
+
+.front-topbar .circleRed{
+ text-decoration:none;
+ margin:0px;
+ color:#25232f;
+ padding:6px 0px 8px;
+}
+
+.front-topbar .circleRed.fa-heart{
+ padding:7px 2px 8px 0px;
+}
+
+.front-topbar .dropdown-menu{
+ background: #ef5f5f; /* Old browsers */
+ /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+ background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2VmNWY1ZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNlYTRiNGIiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+ background: -moz-linear-gradient(top,  #ef5f5f 0%, #ea4b4b 100%); /* FF3.6+ */
+ background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ef5f5f), color-stop(100%,#ea4b4b)); /* Chrome,Safari4+ */
+ background: -webkit-linear-gradient(top,  #ef5f5f 0%,#ea4b4b 100%); /* Chrome10+,Safari5.1+ */
+ background: -o-linear-gradient(top,  #ef5f5f 0%,#ea4b4b 100%); /* Opera 11.10+ */
+ background: -ms-linear-gradient(top,  #ef5f5f 0%,#ea4b4b 100%); /* IE10+ */
+ background: linear-gradient(to bottom,  #ef5f5f 0%,#ea4b4b 100%); /* W3C */
+ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ef5f5f', endColorstr='#ea4b4b',GradientType=0 ); /* IE6-8 */
+ text-align:center;
+}
+
+.front-topbar .dropdown-menu a{
+ color:#25232f;
+ text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.5);
+}
+
+.front-topbar .dropdown-menu a:hover{
+ background:none;
+ color:#703030;
+}
+
+.front-topbar .dropdown-menu:before {
+  position: absolute;
+  top: -7px;
+  right: 9px;
+  display: inline-block;
+  border-right: 7px solid transparent;
+  border-bottom: 7px solid #ef5f5f;
+  border-left: 7px solid transparent;
+  border-bottom-color: #ef5f5f;
+  content: '';
+}
+
+.front-topbar .dropdown-menu:after {
+  position: absolute;
+  top: -6px;
+  right: 10px;
+  display: inline-block;
+  border-right: 6px solid transparent;
+  border-bottom: 6px solid #ef5f5f;
+  border-left: 6px solid transparent;
+  content: '';
+}
+
+
+/*********************
+ Footer 
+*********************/
+.footer,
+.copyright{
+ background:#25232f;
+ color:#716e81;
+ font-size:13px;
+}
+
+.footer{
+ padding:50px 0 10px;
+}
+
+.footer .circleRed{
+ color:#25232f;
+ font-size:17px;
+}
+
+.footer .list-unstyled,
+.footer .list-unstyled a{
+ color:#cfcfd0;
+}
+
+.footersocial{
+ margin:25px 0px;
+}
+
+.footersocial a{
+ display:inline-block;
+ color:#25232f;
+}
+
+.footersocial a i{
+ background:#555361;
+ border-radius:20px;
+ text-align:center;
+ font-size:24px;
+ padding:7px 0px;
+ height:36px;
+ width:36px;
+ margin:0px 8px;
+}
+
+/*
+|--------------------------------------------------------------------------
+| UItoTop jQuery Plugin 1.2
+| http://www.mattvarone.com/web-design/uitotop-jquery-plugin/
+|--------------------------------------------------------------------------
+*/
+#toTop, #toTopHover{
+	width:35px;
+	height:35px;
+}
+
+#toTop{
+	display:none;
+	text-decoration:none;
+	position:fixed;
+	bottom:5px;
+	right:5px;
+	overflow:hidden;
+	border:none;
+	text-indent:100%;
+	background:url(../../img/lay/ui.totop.png) no-repeat left top;
+}
+#toTopHover{
+	background:url(../../img/lay/ui.totop.png) no-repeat left bottom;
+	display:block;
+	overflow:hidden;
+	float:left;
+	opacity: 0;
+	-moz-opacity: 0;
+	filter:alpha(opacity=0);
+}
+#toTop:active, #toTop:focus{outline:none;} 
+
+
+/*********************
+ GENERAL LAY 
+*********************/
+

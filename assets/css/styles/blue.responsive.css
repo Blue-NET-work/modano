@@ -1,0 +1,21 @@
+@media (min-width: 768px) and (max-width: 992px){
+    
+}
+
+/* Laptop */
+@media (min-width: 992px) and (max-width: 1200px){
+    
+    .header .navbar-nav li > a{
+        padding: 19px 11px;
+    }
+        
+    .header.scrolling-fixed .nav li a{
+        padding: 14px 10px 15px;
+    }
+    
+}
+
+/* Desktop */
+@media(min-width: 1200px){
+    
+}
